@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.App__title {
+  width: 100%;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 10px;
+}
+
+.App__title__logo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.App__title__logo :nth-child(2) {
+  color: #eb5757;
+  font-size: 12px;
+  margin-left: 2px;
+}
+
+.App__title__search {
+  background-color: white;
+  border: 2px solid rgb(219, 219, 219);
+  border-radius: 7px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.App__title__search:hover {
+  border: 2px solid black;
+}
+
+.App__title__search input {
+  width: 70%;
+  border: none;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  color: #7e7e7e;
+}
+
+.App__title__search input::placeholder {
+  color: rgb(219, 219, 219);
+}
+
+.App__title__search input:focus {
+  outline: none;
+}
+
+.App__title__search button {
+  border: none;
+  height: 30px;
+  background-color: #27ae60;
+  border-radius: 5px;
+  margin: 5px;
+  color: rgb(255, 255, 255);
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  padding: 0px 20px 0px 20px;
+  cursor: pointer;
+}
+
+.App__title__search button:hover {
+  background-color: white;
+  color: #27ae60;
+  border: 1px solid #27ae60;
+}
+
+.result-search {
+  background-color: #27ae60;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  position: absolute;
+  font-family: "Inter", sans-serif;
+  top: 16%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0%;
+  animation-name: search;
+  animation-duration: 2s;
+}
+
+@keyframes search {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+
+@media (min-width: 574px) {
+  .App {
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+  }
+}
+
+@media (min-width: 1024px) {
+  .App {
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .App__title {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .App__title__logo {
+    margin-left: 90px;
+  }
+
+  .App__title__search {
+    width: 305px;
+    margin-right: 26px;
+  }
+}

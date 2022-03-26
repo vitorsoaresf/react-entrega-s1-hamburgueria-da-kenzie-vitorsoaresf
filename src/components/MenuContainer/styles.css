@@ -1,0 +1,35 @@
+.list-products {
+  list-style: none;
+  overflow-x: scroll;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.list-products__item {
+  margin: 10px;
+}
+
+@media (min-width: 1024px) {
+  .list-products {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 52%;
+    margin-left: 80px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .list-products {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 62%;
+    margin-left: 80px;
+  }
+}

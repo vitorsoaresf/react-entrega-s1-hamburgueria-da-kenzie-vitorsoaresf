@@ -1,0 +1,122 @@
+.container {
+  background-color: #f5f5f5;
+  border: 2px solid rgb(219, 219, 219);
+  border-radius: 5px;
+  width: 240px;
+  height: 265px;
+}
+.container:hover {
+  box-shadow: 0 0 1em grey;
+}
+
+.description {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 10px;
+  background-color: white;
+}
+
+.description-name {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 10px;
+}
+.description-category {
+  font-weight: normal;
+  color: #828282;
+  font-size: 11px;
+  margin: 10px;
+}
+.description-price {
+  font-weight: bold;
+  color: #93d7af;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.description-bt {
+  color: white;
+  background-color: #52af61;
+  cursor: pointer;
+
+  font-size: 10px;
+  font-weight: bold;
+
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+
+  margin: 10px;
+}
+
+.description-bt:hover {
+  color: #52af61;
+  background-color: white;
+  border: 1px solid #52af61;
+}
+
+.Hamburguer {
+  width: 120px;
+  height: 100px;
+  margin: 10px auto;
+  background-image: url(../../assets/img/Hamburguer.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.X-Burguer {
+  width: 130px;
+  height: 100px;
+  margin: 10px auto;
+  background-image: url(../../assets/img/X-Burguer.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.X-Salada {
+  width: 130px;
+  height: 100px;
+  margin: 10px auto;
+  background-image: url(../../assets/img/X-Salada.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Big-Kenzie {
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+  background-image: url(../../assets/img/Big-Kenzie.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Guarana {
+  width: 150px;
+  height: 100px;
+  margin: 10px auto;
+  background-image: url(../../assets/img/guarana.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Coca {
+  width: 130px;
+  height: 100px;
+  margin: 10px auto;
+  background-image: url(../../assets/img/coca.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Fanta {
+  width: 140px;
+  height: 100px;
+  margin: 10px auto;
+  background-image: url(../../assets/img/fanta.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,120 @@
+.cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 10px;
+  width: 290px;
+  background-color: #f5f5f5;
+  font-family: "Inter", sans-serif;
+}
+.cart__product {
+  display: flex;
+}
+.cart__product__img {
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  margin-left: 10px;
+  width: 100px;
+  display: flex;
+}
+
+.X-Burguer2 {
+  width: 60px;
+  height: 50px;
+  margin: 10px auto;
+  background-image: url(../../assets/img/X-Burguer.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Hamburguer1 {
+  width: 60px;
+  height: 50px;
+  margin: 10px auto;
+  background-image: url(../../assets/img/Hamburguer.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.X-Salada3 {
+  width: 60px;
+  height: 50px;
+  margin: 10px auto;
+  background-image: url(../../assets/img/X-Salada.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Big-Kenzie4 {
+  width: 50px;
+  height: 50px;
+  margin: 10px auto;
+  background-image: url(../../assets/img/Big-Kenzie.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Guarana5 {
+  width: 60px;
+  height: 50px;
+  margin: 10px auto;
+  background-image: url(../../assets/img/guarana.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Coca6 {
+  width: 60px;
+  height: 50px;
+  margin: 10px auto;
+  background-image: url(../../assets/img/coca.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Fanta7 {
+  width: 60px;
+  height: 50px;
+  margin: 10px auto;
+  background-image: url(../../assets/img/fanta.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cart__product__description-name {
+  font-weight: bold;
+  font-size: 12px;
+  margin: 10px;
+}
+.cart__product__description-category {
+  font-weight: normal;
+  color: #828282;
+  font-size: 11px;
+  margin: 10px;
+}
+
+.cart__product__bt {
+  background-color: #f5f5f5;
+  border: none;
+  color: rgb(133, 133, 133);
+  cursor: pointer;
+}
+
+.cart__product__bt:hover {
+  background-color: #e0e0e0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(173, 71, 71);
+}
+
+.cart__product__quantity {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cart__product__quantity__number {
+  width: 20px;
+}
